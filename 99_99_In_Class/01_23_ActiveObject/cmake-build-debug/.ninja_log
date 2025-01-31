@@ -1,0 +1,5 @@
+# ninja log v6
+35	7678	7593640985288919	CMakeFiles/ActiveObject.dir/active_object.cpp.obj	c8228237b92cf904
+21	7528	7593640985138677	CMakeFiles/ActiveObject.dir/main.cpp.obj	e47369af2c74f2dc
+7678	8193	7593641061718296	ActiveObject.exe	b72209a047677207
+112	1496	7597945802948160	build.ninja	dfe7df8ca6c84025

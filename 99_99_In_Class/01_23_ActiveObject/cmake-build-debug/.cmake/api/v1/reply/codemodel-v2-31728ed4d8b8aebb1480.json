@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ActiveObject",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ActiveObject::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ActiveObject-Debug-34fe9bfe097c5ad20c1d.json",
+					"name" : "ActiveObject",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/99_99_In_Class/01_23_ActiveObject/cmake-build-debug",
+		"source" : "C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/99_99_In_Class/01_23_ActiveObject"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

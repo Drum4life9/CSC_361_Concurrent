@@ -1,0 +1,40 @@
+2) Intel processors seem to include write-back caches. This means
+	that data is updated into the cache, and then "written back"
+	to RAM / Memory at a later time. This happens when the cache-
+	line needs to be replaced (see next question, as I haven't
+	yet read about this, but will shortly).
+	
+	In write-through caches, things are written to the cache, and
+	then directly "through" them back into memory at the same
+	time. This helps data recovery when failures occur, since
+	there's no "buffer" in a sense, it gets written directly
+	back to main memory, but I assume this takes a little longer
+	per write process since it has to write to cache and to RAM
+	
+3) On most Intel processors, the cache line is 64 bytes. The
+	Cache line is the entire 64 byte chunk of data that gets
+	read to the CPU at a time, even if only a few bytes are
+	needed out of the 64. This reminds me of when we use a linked
+	list, the other data around the object of the link gets loaded
+	into the cache hoping that it will be used shortly, when in
+	reality it often doesnt. This tells us why vectors (in c++)
+	tend to work faster than linked lists, as we load cache 
+	lines that contain data that are all right next to each other,
+	which when loaded to L1 cache SIGNIFICANTLY speeds up processing
+	time and reduces work. 
+	
+4) Cache Coherence is pretty much exactly like what is sounds,
+	the data across caches is promised to be "coherent", or the
+	same. This means multiple levels of cache will have to 
+	find some way (employ some algorithm or strategy) to keep
+	their data consistent across multiple layers of caching.
+	
+5) "False Sharing" is when multiple cores access two variables
+	that are shared on the same cache line (64 byte chunk of
+	information in Intel's case). Although this cache line is
+	shared, each core is interested in a separate variable on
+	that line. When one of these variables gets updated, (even
+	by a totally separate process), the entire cache line gets
+	invalidated, so the other process working in that cache
+	line needs to be refreshed or re-read to keep the line 
+	consistent. 
