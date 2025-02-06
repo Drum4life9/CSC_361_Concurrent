@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/01_21_25_Synchronization/cmake-build-debug",
-		"source" : "C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/01_21_25_Synchronization"
+		"build" : "C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/01_21_Synchronization/cmake-build-debug",
+		"source" : "C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/01_21_Synchronization"
 	},
 	"version" : 
 	{

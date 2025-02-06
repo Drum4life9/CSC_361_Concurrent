@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/01_21_25_Synchronization/cmake-build-debug"
+			"value" : "C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/01_21_Synchronization/cmake-build-debug"
 		},
 		{
 			"name" : "01_21_25_Synchronization_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/01_21_25_Synchronization"
+			"value" : "C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/01_21_Synchronization"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/01_21_25_Synchronization/cmake-build-debug"
+			"value" : "c:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/01_21_Synchronization/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -611,7 +611,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/01_21_25_Synchronization/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/01_21_Synchronization/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -683,7 +683,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/01_21_25_Synchronization"
+			"value" : "C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/01_21_Synchronization"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
