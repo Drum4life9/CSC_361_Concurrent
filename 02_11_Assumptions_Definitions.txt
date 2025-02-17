@@ -1,0 +1,28 @@
+a) Complexity: O(n). If the two vectors have length n, then 
+	one loop running through n items will cover the length
+	of both vectors, plus some O(1) additions and multiplications
+	added in there. 
+b) Runtime complexity for every subset: maximum of O(n/p), since
+	we have n/p elements (max) in each sublist. Then, we have
+	to go through p different processes and add the p results
+	together, which takes O(p). We should end up with an 
+	algorithm that takes O(n/p) + O(p) time, which I believe
+	is O(n/p + p)? This is the part where I understand the 
+	general gist of complexity and how it works, but then 
+	notationally I'm not the best at writing things out.
+c)
+	1) Speedup: Sp = T1 / Tp. I mean, speedup for this simple
+	of a dot product algorithm should just be p? The issue I 
+	think is with the O(p) time it takes to add the results
+	together. In a sequential T1 complexity, it's O(n), and 
+	without the adding in, the parallel speedup would be just
+	p (resulting from n / (n/p)), but when we add the time
+	it takes to add all p results, we get n / (n/p + p) I think.
+	2) Efficiency: We should just take this ^ result and divide
+	by p? By plugging in to Wolfram alpha, the limit as n -> inf
+	is 1, and as p -> inf is 0 (of (n / (n/p + p))/p) or 
+	n/(n + p^2), so if we have more cores, this efficiency is 
+	not good since we need to add more processes, which requires
+	more work at the end, whereas a larger n moves our efficiency
+	more towards 1, which is then better to use a higher p since
+	it will literally be more efficient
