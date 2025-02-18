@@ -1,3 +1,6 @@
 [submodule "project1-Drum4life9"]
 	path = project1-Drum4life9
 	url = https://github.com/CDS-at-LVC/project1-Drum4life9
+[submodule "project2-Drum4life9"]
+	path = project2-Drum4life9
+	url = https://github.com/CDS-at-LVC/project2-Drum4life9
