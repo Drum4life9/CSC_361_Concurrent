@@ -1,17 +1,8 @@
-cmake_minimum_required(VERSION 3.26)
+cmake_minimum_required(VERSION 3.23)
 project(03_11_Fork_Join)
 
-# Specify the path to GCC-13 (replace with your actual path)
+set(CMAKE_CXX_STANDARD 17)
 
-set(CMAKE_C_STANDARD 20)
-
-# Find OpenMP package
-find_package(OpenMP REQUIRED)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -fopenmp")
 
 add_executable(03_11_Fork_Join main.cpp)
-
-# Enable OpenMP support
-if (OpenMP_C_FOUND)
-    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${OpenMP_C_FLAGS}")
-    target_link_libraries(03_11_Fork_Join PRIVATE OpenMP::OpenMP_C)
-endif ()
