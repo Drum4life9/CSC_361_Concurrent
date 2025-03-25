@@ -1,5 +1,8 @@
 #include <fstream>
+#include <random>
 #include <vector>
+#include <iostream>
+#include <thread>
 
 using namespace std;
 
@@ -58,9 +61,54 @@ void parallel_concat() {
 	}
 }
 
+int min_value_array_serial(const vector<int>& v) {
+	int min = INT_MAX;
+
+	for (int i = 0; i < v.size(); ++i) {
+		if (v[i] < min) {
+			this_thread::sleep_for(1ms);
+			min = v[i];
+		}
+	}
+
+	return min;
+}
+
+int min_value_array_parallel(const vector<int>& v) {
+	int min = INT_MAX;
+#pragma omp parallel for reduction(min:min)
+	for (int i = 0; i < v.size(); ++i) {
+		if (v[i] < min) {
+			this_thread::sleep_for(1ms);
+			min = v[i];
+		}
+	}
+
+	return min;
+}
+
+
+
 int main() {
-	serial_concat();
-	parallel_concat();
+	// serial_concat();
+	// parallel_concat();"
+	int size = 2000;
+	vector<int> v(size);
+	random_device rd;
+	mt19937 gen(rd());
+	uniform_int_distribution<> distrib(1, 100);
+	uniform_int_distribution<> distrib2(0, 1);
+	for (int& i : v) {
+		i = distrib(gen) * (distrib2(gen) == 0 ? 1 : -1);
+	}
+
+	// int min = min_value_array_serial(v);
+	// cout << "Min serial is: " << min << endl;
+
+	// int min2 = min_value_array_parallel(v);
+	// cout << "Min Parallel is: " << min2 << endl;
+
+
 }
 
 /*
