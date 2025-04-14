@@ -1,0 +1,11 @@
+# ninja log v6
+10	3136	7657523082249488	CMakeFiles/ao-cpp.dir/main.cpp.obj	f99d6386dddd6d34
+3140	3612	7657523113539181	ao-cpp.exe	be67d97c4bf80e49
+46	2420	7657479607545503	CMakeFiles/ao-cpp.dir/scheduler.cpp.obj	61e0da4fe55fc0bb
+61	2500	7657479607699222	CMakeFiles/ao-cpp.dir/future.cpp.obj	9f98b8a63cb1c4a0
+52	2664	7657479607616597	CMakeFiles/ao-cpp.dir/active_object.cpp.obj	5d81d333bc7c6a56
+34	5351	7660123049441138	CMakeFiles/ao-cpp.dir/scheduler.cpp.obj	7bd49124bd494a29
+62	6300	7660123049650572	CMakeFiles/ao-cpp.dir/active_object.cpp.obj	ef6a55d01622a63e
+5357	8393	7660123102599002	CMakeFiles/ao-cpp.dir/future.cpp.obj	cb8c7d5fc0fd6b43
+24	8548	7660123049271576	CMakeFiles/ao-cpp.dir/main.cpp.obj	37e37b2e32571ee2
+8549	9042	7660123134513679	ao-cpp.exe	30878d7af0341265

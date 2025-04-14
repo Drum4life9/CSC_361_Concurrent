@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.3/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\04_03_Pack_Pattern -B C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\04_03_Pack_Pattern\cmake-build-debug
+-- Configuring done (1.0s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/04_03_Pack_Pattern/cmake-build-debug

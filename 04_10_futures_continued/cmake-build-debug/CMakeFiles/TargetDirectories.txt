@@ -1,0 +1,5 @@
+C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/04_10_futures_continued/cmake-build-debug/CMakeFiles/ao-cpp.dir
+C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/04_10_futures_continued/cmake-build-debug/CMakeFiles/package.dir
+C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/04_10_futures_continued/cmake-build-debug/CMakeFiles/package_source.dir
+C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/04_10_futures_continued/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/04_10_futures_continued/cmake-build-debug/CMakeFiles/rebuild_cache.dir
