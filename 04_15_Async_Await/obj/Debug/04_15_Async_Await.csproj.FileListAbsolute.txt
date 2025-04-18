@@ -1,0 +1,7 @@
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\04_15_Async_Await\bin\Debug\04_15_Async_Await.exe.config
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\04_15_Async_Await\bin\Debug\04_15_Async_Await.exe
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\04_15_Async_Await\bin\Debug\04_15_Async_Await.pdb
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\04_15_Async_Await\obj\Debug\04_15_Async_Await.csproj.AssemblyReference.cache
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\04_15_Async_Await\obj\Debug\04_15_Async_Await.csproj.CoreCompileInputs.cache
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\04_15_Async_Await\obj\Debug\04_15_Async_Await.exe
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\04_15_Async_Await\obj\Debug\04_15_Async_Await.pdb

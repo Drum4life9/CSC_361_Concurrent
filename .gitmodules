@@ -7,3 +7,6 @@
 [submodule "project3-Drum4life9"]
 	path = project3-Drum4life9
 	url = https://github.com/CDS-at-LVC/project3-Drum4life9
+[submodule "project4-Drum4life9"]
+	path = project4-Drum4life9
+	url = https://github.com/CDS-at-LVC/project4-Drum4life9

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\brian\\Development\\CSC_AT_LVC\\CSC_361_Concurrent\\99_99_In_Class\\04_15_CS_Dot_Product\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A090BFF8-3FEC-46E0-9E62-0425DFEF7DE0}|04_15_CS_Dot_Product.csproj|c:\\users\\brian\\development\\csc_at_lvc\\csc_361_concurrent\\99_99_in_class\\04_15_cs_dot_product\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A090BFF8-3FEC-46E0-9E62-0425DFEF7DE0}|04_15_CS_Dot_Product.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\Development\\CSC_AT_LVC\\CSC_361_Concurrent\\99_99_In_Class\\04_15_CS_Dot_Product\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\brian\\Development\\CSC_AT_LVC\\CSC_361_Concurrent\\99_99_In_Class\\04_15_CS_Dot_Product\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:37:51.436Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

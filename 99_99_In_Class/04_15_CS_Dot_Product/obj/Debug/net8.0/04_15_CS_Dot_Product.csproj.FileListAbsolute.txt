@@ -1,0 +1,15 @@
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\99_99_In_Class\04_15_CS_Dot_Product\bin\Debug\net8.0\04_15_CS_Dot_Product.exe
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\99_99_In_Class\04_15_CS_Dot_Product\bin\Debug\net8.0\04_15_CS_Dot_Product.deps.json
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\99_99_In_Class\04_15_CS_Dot_Product\bin\Debug\net8.0\04_15_CS_Dot_Product.runtimeconfig.json
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\99_99_In_Class\04_15_CS_Dot_Product\bin\Debug\net8.0\04_15_CS_Dot_Product.dll
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\99_99_In_Class\04_15_CS_Dot_Product\bin\Debug\net8.0\04_15_CS_Dot_Product.pdb
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\99_99_In_Class\04_15_CS_Dot_Product\obj\Debug\net8.0\04_15_CS_Dot_Product.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\99_99_In_Class\04_15_CS_Dot_Product\obj\Debug\net8.0\04_15_CS_Dot_Product.AssemblyInfoInputs.cache
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\99_99_In_Class\04_15_CS_Dot_Product\obj\Debug\net8.0\04_15_CS_Dot_Product.AssemblyInfo.cs
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\99_99_In_Class\04_15_CS_Dot_Product\obj\Debug\net8.0\04_15_CS_Dot_Product.csproj.CoreCompileInputs.cache
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\99_99_In_Class\04_15_CS_Dot_Product\obj\Debug\net8.0\04_15_CS_Dot_Product.sourcelink.json
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\99_99_In_Class\04_15_CS_Dot_Product\obj\Debug\net8.0\04_15_CS_Dot_Product.dll
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\99_99_In_Class\04_15_CS_Dot_Product\obj\Debug\net8.0\refint\04_15_CS_Dot_Product.dll
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\99_99_In_Class\04_15_CS_Dot_Product\obj\Debug\net8.0\04_15_CS_Dot_Product.pdb
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\99_99_In_Class\04_15_CS_Dot_Product\obj\Debug\net8.0\04_15_CS_Dot_Product.genruntimeconfig.cache
+C:\Users\brian\Development\CSC_AT_LVC\CSC_361_Concurrent\99_99_In_Class\04_15_CS_Dot_Product\obj\Debug\net8.0\ref\04_15_CS_Dot_Product.dll
