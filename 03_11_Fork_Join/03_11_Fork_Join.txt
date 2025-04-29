@@ -1,0 +1,13 @@
+Psuedocode be like:
+
+Include required thingymabobbies
+
+Find and open large image
+
+for (pixel in Image):
+	for (value in pixel):
+		value *= 1.1
+		if value >= 255:
+			value = 255
+
+print / display / save new image

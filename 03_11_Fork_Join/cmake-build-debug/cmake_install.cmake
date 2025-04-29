@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/brian_myers/Development/CSC_AT_LVC/CSC_361_Concurrent/03_11_Fork_Join
+# Install script for directory: C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/03_11_Fork_Join
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/brian_myers/Development/CSC_AT_LVC/CSC_361_Concurrent/03_11_Fork_Join/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/brian/Development/CSC_AT_LVC/CSC_361_Concurrent/03_11_Fork_Join/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
