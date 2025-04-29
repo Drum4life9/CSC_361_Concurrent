@@ -6,7 +6,7 @@ Future<R> ActiveObject::enqueue(func_type<R> func)
 {
     std::unique_lock<std::mutex> lck { queue_mutex };
     auto fut = Future<R>(this);
-    work_queue.push(new QueueEntry<R>(func, fut.get_promise_ptr()));
+    work_queue.push_front(new QueueEntry<R>(func, fut.get_promise_ptr()));
     cv.notify_one();
     return fut;
 }
@@ -27,8 +27,8 @@ void ActiveObject::work_until_completed(Promise<R>* p)
             if (!working || p->is_complete())
                 break;
 
-            qeb = work_queue.front();
-            work_queue.pop();
+            qeb = work_queue.back();
+            work_queue.pop_back();
         }
         qeb->run_and_complete();
         delete qeb;

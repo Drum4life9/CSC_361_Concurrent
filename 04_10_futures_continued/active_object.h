@@ -5,7 +5,7 @@
 #include <functional>
 #include <memory>
 #include <mutex>
-#include <queue>
+#include <deque>
 #include <thread>
 
 #include "qentry_base.h"
@@ -24,7 +24,7 @@ class ActiveObject {
 public:
     // Create the active object, initialize the queue, start
     // the thread running.
-    ActiveObject(Scheduler* s);
+    ActiveObject(Scheduler* s, int id);
    
     // tell the worker thread to shut down, and join that thread
     ~ActiveObject();
@@ -47,15 +47,22 @@ public:
 
     Scheduler* get_scheduler() const;
     std::thread::id get_thread_id() const;
+    int get_num_tasks() const {return work_queue.size();}
+
+    void give_my_function_to_another(ActiveObject* obj2);
 
     template <typename R>
     void work_until_completed(Promise<R>* p);
 
+    int get_my_id() const {
+        return id;
+    }
+
 private:
     // the function that is running on the thread we "own".
     void worker();
-
-    std::queue<QEBase*> work_queue;
+    int id;
+    std::deque<QEBase*> work_queue;
     std::mutex queue_mutex;
     std::condition_variable cv;
     bool working;

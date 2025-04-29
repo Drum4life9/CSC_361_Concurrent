@@ -19,7 +19,7 @@ class Scheduler {
     using func_type = std::function<R()>;
 
 public:
-    Scheduler(int num);
+    Scheduler(int num, bool is_stealer);
 
     template <typename R>
     Future<R> schedule(const func_type<R>& f);
@@ -28,12 +28,15 @@ public:
     void work_until_completed(Promise<R>* p);
     
     bool is_worker(std::thread::id tid) const;
+
+    void steal_work(ActiveObject* obj) const;
     
     void terminate();
 
 private:
     std::vector<std::unique_ptr<ActiveObject>> workers;
     int current;
+    bool is_stealer;
 };
 
 #include "scheduler.ipp"

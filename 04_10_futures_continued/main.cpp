@@ -37,9 +37,9 @@ double dotpfj(Scheduler& sch, vector<double>& a, vector<double>& b,
 }
 
 void test_scheduler2() {
-    Scheduler s(12);
-    vector<double> a(300'000'000);
-    vector<double> b(300'000'000);
+    Scheduler s(6, true);
+    vector<double> a(2'000'000);
+    vector<double> b(2'000'000);
     for (int i = 0; i < a.size(); ++i) {
         a[i] = 1.0;
         b[i] = 2.0;
@@ -69,19 +69,48 @@ void test_scheduler2() {
     s.terminate();
 }
 
-void test4() {
-    Scheduler s(12);
+void test4_Stealer() {
+    Scheduler s(12, true);
 
     for (int i = 0; i < 100; ++i) {
         s.schedule<void>([i]() { 
-            chrono::seconds dur(10 - i/10);
+            chrono::seconds dur(5 - i/20);
             this_thread::sleep_for(dur);
-            cout << this_thread::get_id() << " hi " << i << endl; });
+            // cout << this_thread::get_id() << " hi " << i << endl;
+            });
+    }
+
+    s.terminate();
+}
+
+void test5_Not_Stealer() {
+    Scheduler s(12, false);
+
+    for (int i = 0; i < 100; ++i) {
+        s.schedule<void>([i]() {
+            chrono::seconds dur(5 - i/20);
+            this_thread::sleep_for(dur);
+            // cout << this_thread::get_id() << " hi " << i << endl;
+        });
     }
 
     s.terminate();
 }
 
 int main() {
-    test_scheduler2();
+    cout << "starting stealer\n";
+    auto beg = chrono::system_clock::now();
+    test4_Stealer();
+    auto fin = chrono::system_clock::now();
+    auto dur = chrono::duration_cast<chrono::milliseconds>(fin-beg).count();
+    cout << "The stealer took " << dur << " ms." << endl;
+
+    cout << "starting Not stealer\n";
+    beg = chrono::system_clock::now();
+    test5_Not_Stealer();
+    fin = chrono::system_clock::now();
+    dur = chrono::duration_cast<chrono::milliseconds>(fin-beg).count();
+    cout << "The not_stealer took " << dur << " ms." << endl;
+
+
 }
