@@ -1,0 +1,30 @@
+1) New Hyperobject:
+	- Where does the method go? What class?
+		Probably in the scheduler? To create the objects that the threads
+		can use.
+	- Where called from? Can the code access the object it needs?
+		Probably in the scheduler as well. I feel like when it gets a bunch of
+		tasks it can create the threads and create the hyperobjects, and then 
+		assign the task to the hyperobject to execute said task
+		
+2) Task to retrieve the version of the hyperobject it is allowed to use
+	- Where does the method go? What class?
+		sounds like it goes in the task, the way the question is worded seems like
+		the task needs to find it's own hyper object, however I think that the
+		scheduler should be responsible for splitting up tasks among the 
+		hyperobject
+	- Where called from? Can the code access the object it needs?
+		probably from the task. The task would now have to know about the thing
+		that is trying to place it in a queue to start working, which definitely
+		seems a little sus. It probably wouldn't have access to this without some
+		"parent" pointer saying "I'm the thing that called you and have resources
+		for you to do what you need to do, so when you need something ask me"
+	
+3) Combine hyperobjects together when tasks finished
+	- Where does the method go? What class?
+		scheduler.
+	- Where called from? Can the code access the object it needs?
+		Hopefully called from the scheduler to collect all the work that the 
+		disparate tasks have done and then be the central source for combining
+		the information
+		
